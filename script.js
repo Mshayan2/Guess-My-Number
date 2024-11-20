@@ -35,6 +35,7 @@ check.addEventListener("click", function () {
       displayMessage("😞 You lose the game ")
       document.querySelector(".score").textContent = 0;
       document.body.style.backgroundColor = "Darkred";
+      document.querySelector(".highscore").textContent = 0 ;
 
     }
   }
